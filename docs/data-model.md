@@ -1,8 +1,5 @@
 # MealBuddy Data Model
 
-## Prompt Used
-For starters, let's think about the data model here. Below is an incomplete draft of the data model for the system. Consider the user experience of the application and complete the data model for this app. My thought is that each user will have their own account, which they can log in to create so-called topics of meal entries for more customizability. One example is that if the user prefers to separate their meal entries by the month. For each of the topic, there can be multiple log entries created or edited by the owner of that topic OR the user whom the topic was shared with. The display of the entries in the log will consist of multiple meal entries that are grouped by the date which the entry was made to the topic. Each of these entries contains a required title and optional fields like the content, calorie count, etc. I think that's a good spot to stop at in terms of the features for this application.
-
 ## Data Model Design Decisions
 
 ### 1. User Entity
